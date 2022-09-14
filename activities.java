@@ -12,6 +12,14 @@ public class FirstGroup {
     }
 }
 
+// HELLO TEAMMATES YOU SHOULD PUT YOUR CODES HERE
+public class Operators {
+    static Addition(int a ,int b) {
+        return a + b;
+    }   
+}
+
+
 class Coffees {
     
     String brand = "Coffee Blanca"; // In this part i added some attribute for my main class Coffees
@@ -30,4 +38,6 @@ class Variants extends Coffees { // In this part i inherited the main class
         // and lastly, here is the final part where i print the objects 
         System.out.println(newCoffee.brand + "is good for your health and if you " + newCoffee.benefits +"it, the coffee boost your confidence and makes you stay awake!"); 
     }
-}
+} 
+
+
