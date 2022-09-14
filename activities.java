@@ -17,6 +17,8 @@ public class Operators {
     static Addition(int a ,int b) {
         return a + b;
     }   
+    static Subtraction(int a, int b){
+	return a -b;
 }
 
 
