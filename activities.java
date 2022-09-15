@@ -19,6 +19,10 @@ public class Operators {
     static Multiplication(int a, int b){
 	return a*b;
 }
+    static Division(int a, int b) {
+	return a/b;	
+}
+}
 
 
 class Coffees {
