@@ -27,6 +27,7 @@ public class activities {
         return x / y;
       }
 
+      //MULTIPLICATION FUNCTION
       static int multiplyMethodInt(int x, int y) {
         return x * y;
       }
