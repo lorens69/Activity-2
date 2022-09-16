@@ -1,4 +1,4 @@
-public class ActivityOOP {
+public class ActivityOOP1 {
   
 private String icecreambrand;
 private int icecreamprice;
