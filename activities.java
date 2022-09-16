@@ -27,6 +27,14 @@ public class activities {
         return x / y;
       }
 
+      static int multiplyMethodInt(int x, int y) {
+        return x * y;
+      }
+      
+      static double multiplyMethodDouble(double x, double y) {
+        return x * y;
+      }
+
       
 
     public static void main(String args[]) {
