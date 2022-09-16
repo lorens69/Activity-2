@@ -1,34 +1,39 @@
-class Icecream {
+public class Icecream {
+  
+	private String icecreambrand;
+	int icecreamprice = 120;
+
+public String Getter() {
+    return icecreambrand;
     
-    private String icecreambrand;
-    int price = 120;
-    
-    public void feeling() {
+}
+
+public void Setter (String brand){
+    this.icecreambrand = brand;
+}
+
+public void feeling() {   
         System.out.println("Cold Delicious");
     }
-    
-    
-    public String Getter() {
-        return icecreambrand;
+
+    public static void main(String args[]) {
+      
+      
+
     }
-    
-    public void Setter (String Icecream){
-        this.icecreambrand = Icecream;
-    }
-    
-    }
-    
-    class Flavor extends Icecream{
+}
+
+ class Flavor extends Icecream{
         
-        private final String taste = "this icecream is so yummy delecious";
+        private final String taste = "icecream is so yummy and delicious";
         
         public static void main(String[] args) {
         
-           System.out.println("Allan Celestial Divino" + ""); 
+           System.out.println("Allan Divino" + ""); 
            
-           Flavor f = new Flavor();
+           Flavor f  = new Flavor();
            f.feeling();
            f.Setter("Selecta");
-           System.out.println(f.Getter() + "," + f.taste + ", for the price of " + f.price + " pesos.");
+           System.out.println(f.Getter() + "," + f.taste + ", for only  " + f.icecreamprice+ " pesos.");
         }
     } 
