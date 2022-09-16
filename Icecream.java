@@ -24,7 +24,7 @@ class Icecream {
         
         public static void main(String[] args) {
         
-           System.out.println("Allan Divino" + ""); 
+           System.out.println("Allan Celestial Divino" + ""); 
            
            Flavor f = new Flavor();
            f.feeling();
