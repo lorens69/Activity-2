@@ -43,6 +43,30 @@ public class activities {
 	    System.out.println("Allan Divino");
         System.out.println("John Laurence Castillo");
 
+    int plus1 = plusMethodInt(10,1005);
+    double plus2 = plusMethodDouble(10, 100);
+    
+    int minus1 = minusMethodInt(10, 100);
+    double minus2 = minusMethodDouble(10, 100);
+    
+    int times1 = multiplyMethodInt(10, 100);
+    double times2 = multiplyMethodDouble(10, 100);
+    
+    int div1 = divideMethodInt(10, 100);
+    double div2 = divideMethodDouble(10, 100);
+    
+    System.out.println("int: " + plus1);
+    System.out.println("double: " + plus2);
+    
+    System.out.println("int: " + minus1);
+    System.out.println("double: " + minus2);
+    
+    System.out.println("int: " + times1);
+    System.out.println("double: " + times2);
+    
+    System.out.println("int: " + div1);
+    System.out.println("double: " + div2);
+
     }
 }
 
